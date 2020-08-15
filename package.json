@@ -1,10 +1,10 @@
 {
   "name": "@rackai/classql",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@rackai/domql": "^git+https://git@github.com/rackai/domql#feature/update-iteration-on-params"
+    "@rackai/domql": "git+https://git@github.com/rackai/domql#feature/update-iteration-on-params"
   }
 }
