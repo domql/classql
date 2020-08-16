@@ -12,14 +12,13 @@ var query = params => {
     var nodes = document.querySelectorAll(query)
 
     var nodesArr = []
-    nodes.forEach((node, key) => {
-      nodesArr[key] = node
-    })
+    nodes.forEach((node, key) => nodesArr[key] = node)
 
     element.nodes = nodesArr
-    registry[key] = params[key]
-    
+    element.key = key
     element.update = update
+    
+    registry[key] = params[key]
 
     apply(element)
   }

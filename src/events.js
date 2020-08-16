@@ -3,7 +3,7 @@
 import * as on from '@rackai/domql/src/event/on'
 
 on.init = (param, element, node) => {
-  param(element)
+  param.call(element, element, node)
 }
 
 export default (element, node) => {
