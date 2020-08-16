@@ -23,9 +23,7 @@ Attributes:
 DOM.query({
   modal: {
     query: '.modal',
-    style: {
-      display: 'none'
-    }
+    style: { display: 'none' }
   }
 })
 ```
@@ -38,9 +36,7 @@ DOM.query({
     on: {
       click: (event, element, node) => {
         DOM.find('modal').update({
-          style: {
-            display: 'block'
-          }
+          style: { display: 'block' }
         })
       }
     }
