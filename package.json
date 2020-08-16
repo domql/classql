@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@rackai/domql": "git+https://git@github.com/rackai/domql#feature/update-iteration-on-params"
+    "@rackai/domql": "rackai/domql#feature/update-iteration-on-params"
   }
 }
