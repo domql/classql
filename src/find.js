@@ -2,4 +2,4 @@
 
 import registry from './registry'
 
-export default query => registry[query]
+export default query => registry[query] || console.warn(`can't find ${query}`)
