@@ -1,20 +1,22 @@
 'use strict'
 
-import params from './params'
-import events from './events'
-import { exec, isObject } from '@rackai/domql/src/utils/object'
 import { init } from '@rackai/domql/src/event/on'
+import { exec, isObject } from '@rackai/domql/src/utils/object'
 
-console.log(init)
+import params from './params'
+import on from './on'
 
 export default element => {
   element.nodes.forEach(node => {
-    if (isObject(element.on)) events(element, node)
-    for (let param in element) {
-      var elemParam = element[param]
-      var method = params[param]
-      if (method) method(elemParam, element, node)
+    if (isObject(element.on)) on(element, node)
+
+    for (let key in element) {
+      var elemParam = element[key]
+      var param = params[key]
+      if (param) param(elemParam, element, node)
     }
-    if (element.on && typeof element.on.init === 'function') init(element.on.init, element, node)
+
+    if (element.on && typeof element.on.init === 'function')
+      init(element.on.init, element, node)
   })
 }

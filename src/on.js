@@ -1,8 +1,8 @@
 'use strict'
 
-import * as on from '@rackai/domql/src/event/on'
+import * as events from '@rackai/domql/src/event/on'
 
-on.init = (param, element, node) => {
+events.init = (param, element, node) => {
   param.call(element, element, node)
 }
 
@@ -10,7 +10,7 @@ export default (element, node) => {
   for (const param in element.on) {
     if (param === 'init' || param === 'render') continue
     var appliedFunction = element.on[param]
-    var registeredFunction = on[param]
+    var registeredFunction = events[param]
     if (typeof appliedFunction === 'function' &&
         typeof registeredFunction === 'function') {
       registeredFunction(appliedFunction, element, node)
