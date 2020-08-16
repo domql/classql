@@ -1,5 +1,5 @@
 # ClassQL
-DOM manipulation using document queries. Uses [domql](https://github.com/rackai/DOMQL) API.
+DOM manipulation using document queries. Uses [DOMQL](https://github.com/rackai/domql) API.
 
 ### Installation
 ```
