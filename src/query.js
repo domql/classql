@@ -16,7 +16,7 @@ var query = params => {
     else {
       var nodes = document.querySelectorAll(query)
       var { length } = nodes
-      if (length === 0) console.warn(`could not find`, key)
+      if (length === 0) console.warn(`Could not find element "${key}"`)
       nodes.forEach((node, key) => nodesArr[key] = node)
     }
 
