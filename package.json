@@ -4,7 +4,10 @@
   "main": "src/index.js",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "dependencies": {
-    "@rackai/domql": "rackai/domql#v0.0.11"
+    "@rackai/domql": "0.0.12"
   }
 }
