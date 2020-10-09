@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@rackai/domql": "rackai/domql#0.0.10"
+    "@rackai/domql": "rackai/domql#v0.0.11"
   }
 }
