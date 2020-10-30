@@ -8,6 +8,6 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@rackai/domql": "rackai/domql#v0.0.12"
+    "@rackai/domql": "0.0.14"
   }
 }
