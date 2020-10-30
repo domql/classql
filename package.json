@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
     "@rackai/domql": "0.0.14"
