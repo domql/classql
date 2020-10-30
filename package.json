@@ -1,6 +1,6 @@
 {
   "name": "@rackai/classql",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "src/index.js",
   "license": "MIT",
   "private": false,
@@ -8,6 +8,6 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@rackai/domql": "0.0.12"
+    "@rackai/domql": "rackai/domql#v0.0.12"
   }
 }
