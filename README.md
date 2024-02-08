@@ -11,7 +11,7 @@ yarn add classql
 Initialization: 
 
 ```javascript
-import DOM from '@rackai/classql'
+import DOM from 'classql'
 
 DOM.query({
   logo: { query: '.logo' }
