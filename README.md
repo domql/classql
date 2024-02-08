@@ -1,4 +1,4 @@
-# ClassQL
+# classQL
 DOM manipulation using document queries. Uses [DOMQL](https://github.com/domql/domql) API.
 
 ### Installation
