@@ -11,7 +11,7 @@ yarn add classql
 Initialization: 
 
 ```javascript
-import DOM from 'classql'
+import DOM from 'qsql'
 
 DOM.query({
   logo: { query: '.logo' }
