@@ -2,7 +2,7 @@
 
 import params from './params'
 import on from './on'
-import { exec, isObject } from '@rackai/domql/src/utils/object'
+import { exec, isObject } from 'domql/src/utils/object'
 
 const update = function (newParams) {
   var element = this

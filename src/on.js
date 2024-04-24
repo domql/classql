@@ -1,6 +1,6 @@
 'use strict'
 
-import * as events from '@rackai/domql/src/event/on'
+import * as events from 'domql/src/event/on'
 
 events.init = (param, element, node) => {
   param.call(element, element, node)

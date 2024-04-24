@@ -1,7 +1,7 @@
 'use strict'
 
-import { init } from '@rackai/domql/src/event/on'
-import { exec, isObject } from '@rackai/domql/src/utils/object'
+import { init } from 'domql/src/event/on'
+import { exec, isObject } from 'domql/src/utils/object'
 
 import params from './params'
 import on from './on'

@@ -6,7 +6,7 @@ import {
   data,
   style,
   html
-} from '@rackai/domql/src/element/params'
+} from 'domql/src/element/params'
 
 export default {
   attr,

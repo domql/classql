@@ -1,13 +1,11 @@
 {
-  "name": "@rackai/classql",
+  "name": "@domql/qsql",
   "version": "0.1.0",
   "main": "src/index.js",
+  "author": "symbo.ls",
   "license": "MIT",
   "private": false,
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "dependencies": {
-    "@rackai/domql": "0.1.0"
+    "domql": "latest"
   }
 }

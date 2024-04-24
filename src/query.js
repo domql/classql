@@ -4,7 +4,7 @@ import registry from './registry'
 import apply from './apply'
 import update from './update'
 import { methods } from './methods'
-import { is } from '@rackai/domql/src/event'
+import { is } from 'domql/src/event'
 
 var query = params => {
   for (let key in params) {

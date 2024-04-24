@@ -1,6 +1,6 @@
 'use strict'
 
-import '@rackai/domql'
+import 'domql'
 
 import query from './query'
 import registry from './registry'
